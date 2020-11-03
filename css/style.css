@@ -60,8 +60,10 @@ section {
   transition: transform .2s ease-in;
 }
 
-.color:hover,
-.color:focus {
+#one:checked ~ .block-lala .color-blue,
+#two:checked ~ .block-lala .color-white,
+#three:checked ~ .block-lala .color-red,
+#four:checked ~ .block-lala .color-white-blue {
   transform: scale(1.3);
 }
 
