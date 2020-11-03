@@ -46,6 +46,27 @@ section {
   position: absolute;
 }
 
+.cros {
+  opacity: 0;
+}
+
+#one:checked ~ .tabs .cros--a1 {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+#two:checked ~ .tabs .cros--b2 {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+#three:checked ~ .tabs .cros--c3 {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+#four:checked ~ .tabs .cros--d4 {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
 .block-lala {
   position: absolute;
   bottom: 0;
